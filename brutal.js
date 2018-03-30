@@ -1,5 +1,6 @@
 
 alert("me he loadeado 5");
+console.log("aupa");
 debug = false;
 
 if(debug)
