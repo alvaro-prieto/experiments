@@ -1,4 +1,4 @@
- window.onload = function(){
+var hack = function(){
     
 
 (function(n, t, q) {
@@ -3172,6 +3172,8 @@
         fb()
     }
 })(window, document, jQuery);
-
-     console.log("yepa las cabras");
 };
+
+console.log("yepa las cabras");
+console.log(jQuery, $);
+
