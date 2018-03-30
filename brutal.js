@@ -3174,6 +3174,9 @@ var hack = function(){
 })(window, document, jQuery);
 };
 
-console.log("yepa las cabras");
-console.log(jQuery, $);
+setTimeout(function(){
+    console.log("yepa las cabras");
+    hack();
+}, 4000 );
+
 
