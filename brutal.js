@@ -1,4 +1,5 @@
-
+$(function(){
+    
 
 (function(n, t, q) {
     var cb, db, ua, va;
@@ -3172,7 +3173,4 @@
     }
 })(window, document, jQuery);
 
-
-document = null;
-jQuery = null;
-window = null;
+});
