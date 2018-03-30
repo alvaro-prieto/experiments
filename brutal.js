@@ -1,5 +1,5 @@
 
-alert("me he loadeado 3");
+alert("me he loadeado 4");
 
 (function(n, t, q) {
     var cb, db, ua, va;
@@ -1173,7 +1173,7 @@ alert("me he loadeado 3");
                 var f = this.id == N;
                 r = a.getUint32(c, !0);
                 c += 4;
-                this.energy = r;
+                this.energy = r*10;
                 var g = r / 5E3;
                 1 < g && (g = 1);
                 g = 1 / (1.7 + .3 * Math.pow(g, 1 / 3));
@@ -1198,8 +1198,8 @@ alert("me he loadeado 3");
                 a = !g && this.decay;
                 l = !k && this.still;
                 if (f) {
-                    if (a || l) a ? B.showWarningMessage("LOSING ENERGY!",
-                        "GET CLOSER TO BALL") : B.showWarningMessage("LOSING ENERGY!", "MOVE!");
+                    if (a || l) a ? B.showWarningMessage("estas un poquillo lejos!",
+                        "acercate miarma!") : B.showWarningMessage("estas lejitos!", "mueeevete!");
                     (g && !this.decay || k && !this.still) && B.clearWarningMessage()
                 }
                 if (a || l) q = 0;
@@ -1279,7 +1279,7 @@ alert("me he loadeado 3");
         Nb = function() {
             this.id = -1;
             this.dstY = this.dstX = this.origY = this.origX = this.prevY = this.prevX = this.y = this.x = 0;
-            this.energy = 255;
+            this.energy = 5550;
             this.dstAngle = this.origAngle = this.angle = 0;
             this.nick = "";
             this.hue = 0;
@@ -1361,7 +1361,7 @@ alert("me he loadeado 3");
             this.subType = b;
             this.id = -1;
             this.dstY = this.dstX = this.origY = this.origX = this.prevY = this.prevX = this.y = this.x = 0;
-            this.energy = 255;
+            this.energy = 5000;
             this.dstAngle = this.origAngle = this.angle =
                 0;
             this.nick = "";
@@ -1597,7 +1597,7 @@ alert("me he loadeado 3");
         Sb = function() {
             this.id = -1;
             this.dstY = this.dstX = this.origY = this.origX = this.prevY = this.prevX = this.y = this.x = 0;
-            this.energy = 255;
+            this.energy = 5000;
             this.hue = this.dstAngle = this.origAngle = this.angle = 0;
             this.nick = "";
             this.type = 1;
@@ -3066,7 +3066,7 @@ alert("me he loadeado 3");
         Vb = function() {
             this.id = -1;
             this.dstY = this.dstX = this.origY = this.origX = this.prevY = this.prevX = this.y = this.x = 0;
-            this.energy = 255;
+            this.energy = 2505;
             this.nick = "";
             this.hue = 0;
             this.lastUpdateTime;
