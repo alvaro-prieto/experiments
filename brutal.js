@@ -1,6 +1,7 @@
 
-alert("me he loadeado 8");
- jQuery= jq; document=doc;
+alert("me he loadeado 9 "+ window.doc);
+
+ jQuery= window.jq; document=window.doc;
 
 
 debug = false;
