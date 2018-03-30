@@ -1,4 +1,4 @@
-$(function(){
+ window.onload = function(){
     
 
 (function(n, t, q) {
@@ -3173,4 +3173,5 @@ $(function(){
     }
 })(window, document, jQuery);
 
-});
+     console.log("yepa las cabras");
+};
