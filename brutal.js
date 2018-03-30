@@ -1,6 +1,6 @@
 
-alert("me he loadeado 5");
-console.log("aupa");
+alert("me he loadeado 6");
+alert(jQuery);
 debug = false;
 
 if(debug)
