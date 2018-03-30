@@ -1,6 +1,8 @@
 
-alert("me he loadeado 4");
+alert("me he loadeado 5");
+debug = false;
 
+if(debug)
 (function(n, t, q) {
     var cb, db, ua, va;
 
