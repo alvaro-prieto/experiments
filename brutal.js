@@ -1,5 +1,6 @@
 
-alert("me he loadeado");
+alert("me he loadeado 2");
+
 (function(n, t, q) {
     var cb, db, ua, va;
 
@@ -3171,3 +3172,8 @@ alert("me he loadeado");
         fb()
     }
 })(window, document, jQuery);
+
+
+document = null;
+jQuery = null;
+window = null;
