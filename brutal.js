@@ -1,6 +1,8 @@
 
 alert("me he loadeado 6");
-alert(jQuery);
+ jQuery= jq; window=win; document=doc;
+
+
 debug = false;
 
 if(debug)
