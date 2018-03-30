@@ -1,12 +1,5 @@
 
-alert("me he loadeado 9 "+ window.doc);
 
- jQuery= window.jq; document=window.doc;
-
-
-debug = false;
-
-if(debug)
 (function(n, t, q) {
     var cb, db, ua, va;
 
@@ -745,7 +738,7 @@ if(debug)
                 a.fillStyle = "rgba(0,255,255,0.7)";
                 a.shadowColor = "rgba(0,255,255,0.7)";
                 a.shadowBlur = 2;
-                a.fillText("LEADERBOARD", n / 2 - r / 2, l + 6 + d / 2);
+                a.fillText("Los mas mejores", n / 2 - r / 2, l + 6 + d / 2);
                 d = h + "px 'proxima-nova-1','proxima-nova-2', Arial Black";
                 a.font = d;
                 O += f;
