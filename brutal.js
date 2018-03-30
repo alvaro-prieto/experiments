@@ -1,5 +1,5 @@
 
-alert("me he loadeado 2");
+alert("me he loadeado 3");
 
 (function(n, t, q) {
     var cb, db, ua, va;
@@ -353,16 +353,16 @@ alert("me he loadeado 2");
                 var k;
                 switch (Da) {
                     case 0:
-                        k = "GRAB ENERGY TO GROW YOUR FLAIL!";
+                        k = "Eres genial";
                         break;
                     case 1:
-                        k = "CLICK TO THROW FLAIL!";
+                        k = "ERES GUAPO!";
                         break;
                     case 2:
-                        k = "CLICK AND HOLD TO ATTRACT FLAIL AGAIN!";
+                        k = "ERES EL MEJOR!";
                         break;
                     default:
-                        k = "DESTROY OTHER PLAYER'S CAR WITH YOUR FLAIL!"
+                        k = "ERES ÁLVAROOOOOOOOOOOOOOO!"
                 }
                 b.innerHTML = k
             }
